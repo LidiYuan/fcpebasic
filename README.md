@@ -6,8 +6,9 @@ __github地址__ https://github.com/LidiYuan/fcpebasic.git <br/>
 
 ## 代码健壮性
 &emsp;&emsp; 作者当前使用了 __gtest+lcov+valgrind+cppcheck__ 来保证代码的健壮性，其中gtest是为了编写单元测试，lcov是为了代码覆盖率，valgrind是为了检测内存泄露，cppcheck是为了对代码进行静态检测。
+
 ## 代码依赖
-&emsp;&emsp; 代码不会依赖任何其它的代码，但是编译的时候会依赖fcpeaux(辅助用的一些列脚本)中的脚本。如果想正确编译此代码，需要先下载fcpeaux功能到本地。
+&emsp;&emsp; 代码不会依赖任何其它的代码，但是编译的时候会依赖fcpeaux(辅助用的一些列脚本)中的脚本。如果想正确编译此代码，需要先下载fcpeaux工程到本地,并且将fcpeaux和fcpebasic放在同一个目录下面。
 
 ## 功能API
 ### [fcpekv](doc/fcpekv.md "click to jump")
