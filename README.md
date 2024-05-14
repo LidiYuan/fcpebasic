@@ -13,12 +13,12 @@ __github地址__ https://github.com/LidiYuan/fcpebasic.git <br/>
 &emsp;&emsp; 代码不会依赖任何其它的代码，但是编译的时候会依赖fcpeaux(辅助用的一些列脚本)中的脚本。如果想正确编译此代码，需要先下载fcpeaux工程到本地,并且将fcpeaux和fcpebasic放在同一个目录下面。
 
 ## 代码编译
-&emsp;&emsp; 将fcpeaux和fcpebasic工程下载到同一个目录下面，然后执行如下。
+将fcpeaux和fcpebasic工程下载到同一个目录下面，然后执行如下。
 ```
 cd fcpebasic
 make all
 ```
-&emsp;&emsp; make支持的选项如下。
+make支持的选项如下。
 ```
 Usage ...
   all                        #Compile the project
@@ -35,6 +35,8 @@ Usage ...
   uninstall                  #Uninstall this project
   output                     #Output CLFAGS info
 ```
+安装的话可以使用 make install进行安装，默认会将libfcpebasic.so.1.0.1 libfcpebasic.a 安装到/usr/lib64/下面. 头文件安装到/usr/include/fcpebasic/下面
+
 
 ## 功能API
 ### [fcpekv](doc/fcpekv.md "click to jump")
