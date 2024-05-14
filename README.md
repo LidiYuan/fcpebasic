@@ -35,7 +35,7 @@ Usage ...
   uninstall                  #Uninstall this project
   output                     #Output CLFAGS info
 ```
-安装的话可以使用 make install进行安装，默认会将libfcpebasic.so.1.0.1 libfcpebasic.a 安装到/usr/lib64/下面. 头文件安装到/usr/include/fcpebasic/下面
+可以使用 make install进行安装，默认会将libfcpebasic.so.1.0.1 libfcpebasic.a 安装到/usr/lib64/下面. 头文件安装到/usr/include/fcpebasic/下面
 
 
 ## 功能API
