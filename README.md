@@ -5,3 +5,24 @@
 ## 功能API
 ### [fcpekv](doc/fcpekv.md "click to jump")
 key,value相关操作的API介绍
+
+### [fcpecstr](doc/fcpecstr.md "click to jump")
+c语言字符串相关操作的API介绍
+
+### [fcpestr](doc/fcpestr.md "click to jump")
+封装字符串相关操作的API介绍
+
+### [fcpetime](doc/fcpetime.md "click to jump")
+时间相关操作的API介绍
+
+### [fcpeip](doc/fcpeip.md "click to jump")
+IP相关操作的API介绍
+
+### [fcpenet](doc/fcpenet.md "click to jump")
+网络相关操作的API介绍
+
+### [fcpefile](doc/fcpefile.md "click to jump")
+文件相关操作的API介绍
+
+### [fcpefd](doc/fcpefd.md "click to jump")
+文件描述符相关操作的API介绍
