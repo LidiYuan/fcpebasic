@@ -116,4 +116,48 @@ void test(void)
 }
 ```
 
+______________________
+### fcpekv_find_one()
+
+__函数原型__ <br/>
+根据key，自动匹配出kvarr中相同的key,并将对应的value传出,如果存在多个相同的key只能获得第一个
+```
+void fcpekv_find_one(const char *kvarr[],unsigned int kvnum, const char *findkey, char **value);
+```
+__数介绍__ <br/>
+|参数名|类型|说明|
+|:--:|--|--|
+|kvarr|const char *[]|元素是"key=value"字符串的数组.|
+|kvnum|unsigned int|kvarr数组中元素的个数.|
+|findkey|char *|要查找的key不能是空.|
+|value|char**|1)返回找到的value, 其中value不能空空.<br/>2)不需要释放.|
+
+__返回值__ <br/>
+|返回类型|成功|失败|备注|
+|:---|:---|:---|:---|
+
+__注意__ <br/>
+1) 解析出的value将以最右边的'='作为分隔符.<br/>
+2) 解析出的value不会自动去除空白(如果存在).<br/>
+  
+__例子__ <br/>
+```
+void test(void)
+{
+    char*vstr =NULL;
+    const char *mykvarr[]={
+      "key1=value1",
+      "key2=10",
+      "key3=value3",
+    };
+
+    fcpekv_find_one(mykvarr,sizeof(mykvarr)/sizeof(mykvarr[0]),"key1",&vstr);
+
+    printf("%s\n",vstr);
+    
+    return;
+}
+
+```
+
 
