@@ -12,6 +12,30 @@ __github地址__ https://github.com/LidiYuan/fcpebasic.git <br/>
 ## 代码依赖
 &emsp;&emsp; 代码不会依赖任何其它的代码，但是编译的时候会依赖fcpeaux(辅助用的一些列脚本)中的脚本。如果想正确编译此代码，需要先下载fcpeaux工程到本地,并且将fcpeaux和fcpebasic放在同一个目录下面。
 
+## 代码编译
+&emsp;&emsp; 将fcpeaux和fcpebasic工程下载到同一个目录下面，然后执行如下。
+```
+cd fcpebasic
+make all
+```
+&emsp;&emsp; make支持的选项如下。
+```
+Usage ...
+  all                        #Compile the project
+     DISABLE_STATIC=yes/no   #Static libraries are not compiled, default is no.
+     DISABLE_SHARED=yes/no   #Shared libraries are not compiled, default is no.
+     DISABLE_DEBUG=yes/no    #Disable compile debug version, default is no.
+     PREFIX=xx               #Install the project to PREFIX
+  clean                      #Clear this project
+  depend                     #Establish a header file dependency
+  strip                      #Strip symbols
+  check                      #Use cppcheck check c code.
+     CHECK_SRC=xx.c          #Set the source code file for detection
+  install                    #Install this project
+  uninstall                  #Uninstall this project
+  output                     #Output CLFAGS info
+```
+
 ## 功能API
 ### [fcpekv](doc/fcpekv.md "click to jump")
 key,value相关操作的API介绍
