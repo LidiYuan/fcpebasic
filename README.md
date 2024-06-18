@@ -96,3 +96,6 @@ IP相关操作的API介绍
 
 ### [fcpefd](doc/fcpefd.md "click to jump")
 文件描述符相关操作的API介绍
+
+### [fcpebit](doc/fcpebit.md "click to jump")
+位相关操作的API介
