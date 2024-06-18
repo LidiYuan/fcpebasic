@@ -44,7 +44,7 @@ __添加一个测试用例__
 ```
 
 ## 代码依赖
-&emsp;&emsp; 代码不会依赖任何其它的代码，但是编译的时候会依赖fcpeaux(辅助用的一些列脚本)中的脚本。如果想正确编译此代码，需要先下载fcpeaux工程到本地,并且将fcpeaux和fcpebasic放在同一个目录下面。
+&emsp;&emsp; 编译的时候需要依赖fcpeaux(辅助用的一些列脚本)中的脚本。如果想正确编译此代码，需要先下载fcpeaux工程到本地,并且将fcpeaux和fcpebasic放在同一个目录下面。
 
 ## 代码编译
 将fcpeaux和fcpebasic工程下载到同一个目录下面，然后执行如下。
