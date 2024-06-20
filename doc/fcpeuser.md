@@ -13,7 +13,7 @@ int fcpeuser_info(fcpemap *usermap,const char *user,const char *keystr)
 __数介绍__ <br/>
 |参数名|类型|说明|
 |:--:|--|--|
-|usermap|fcpemap *|返回一个map，存储获得的进程信息|
+|usermap|fcpemap *|返回一个map，存储获得的用户信息|
 |usr|const char*|要查找的用户名|
 |keystr|const char  *|要获得的用户信息key字符串，每个key间用 , 号分割。|
 
