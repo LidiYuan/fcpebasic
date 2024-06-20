@@ -102,3 +102,6 @@ IP相关操作的API介绍
 
 ### [fcpeproc](doc/fcpeproc.md "click to jump")
 进程相关操作的API介绍
+
+### [fcpeuser](doc/fcpeuser.md "click to jump")
+用户相关操作的API介绍
